@@ -1,0 +1,22 @@
+{
+    "name": "school-documents",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.documents",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "storage.local",
+        "audit.trail",
+        "school.directory"
+    ],
+    "exposes": [
+        "Plugins\\SchoolDocuments\\API\\Contracts\\SchoolDocumentsContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "School, student, teacher and staff documents with numbering counters and an access log.",
+    "config": []
+}
